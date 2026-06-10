@@ -1,0 +1,14 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'admin/css/material_admin.css' %}">
+ 
+{% endblock %}
+
+{% block title %}پنل مدیریت فروشگاه{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">پنل مدیریت فروشگاه</h1>
+{% endblock %}

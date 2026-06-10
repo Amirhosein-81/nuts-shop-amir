@@ -1,0 +1,87 @@
+/* ----------------------------
+    JET RTL - Persian RTL Fix
+----------------------------- */
+
+body, html {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/*  SIDEBAR  */
+.jet-side-nav {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.jet-side-nav .menu {
+    padding-right: 10px !important;
+}
+
+.jet-side-nav li a {
+    padding-right: 20px !important;
+    padding-left: 0 !important;
+}
+
+.jet-side-nav li a .icon {
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+}
+
+/*  HEADER  */
+#header, .jet-header {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+#branding h1 {
+    padding-right: 15px !important;
+}
+
+/*  BREADCRUMBS  */
+.breadcrumbs {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.breadcrumbs li {
+    float: right !important;
+}
+
+/*  PAGE CONTENT  */
+.content {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/*  TABLES  */
+table {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+table th, table td {
+    text-align: right !important;
+}
+
+/*  FORMS  */
+input, select, textarea {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/*  CHANGE LIST FILTER  */
+#changelist-filter {
+    float: left !important;
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* JET FORM INLINE */
+.inline-group {
+    direction: rtl !important;
+}
+
+/*  BEAUTIFY BUTTONS  */
+.button, .default, input[type="submit"] {
+    border-radius: 6px !important;
+}

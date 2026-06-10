@@ -1,0 +1,91 @@
+/* ===== JET MATERIAL THEME (RTL) ===== */
+
+@font-face {
+    font-family: Vazir;
+    src: url("/static/fonts/Vazir.woff2") format("woff2");
+}
+
+body {
+    font-family: Vazir, sans-serif !important;
+    background: #f4f6f9 !important;
+    direction: rtl;
+}
+
+/* HEADER */
+.jet-header {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 2px 6px rgba(0,0,0,.05);
+}
+
+/* SIDEBAR */
+.jet-side-nav {
+    background: #1f2937 !important;
+}
+
+.jet-side-nav li a {
+    color: #d1d5db !important;
+    padding: 12px 20px !important;
+    font-size: 14px;
+}
+
+.jet-side-nav li a:hover {
+    background: #374151 !important;
+    color: #ffffff !important;
+}
+
+.jet-side-nav li.active > a {
+    background: #2563eb !important;
+    color: #ffffff !important;
+}
+
+/* CONTENT */
+.content-wrapper,
+.main-content {
+    background: transparent !important;
+}
+
+/* CARDS */
+.module {
+    background: #ffffff !important;
+    border-radius: 14px;
+    border: none !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+    margin-bottom: 24px;
+}
+
+/* TABLES */
+.module table th {
+    font-weight: 500;
+    color: #374151;
+}
+
+.module table tr:hover {
+    background: #f9fafb;
+}
+
+/* BUTTONS */
+.button,
+input[type=submit],
+.default {
+    background: #2563eb !important;
+    border-radius: 10px !important;
+    border: none !important;
+    padding: 6px 14px;
+}
+
+/* FORMS */
+input, select, textarea {
+    border-radius: 8px !important;
+}
+
+/* BREADCRUMBS */
+.breadcrumbs {
+    background: transparent !important;
+    font-size: 13px;
+}
+
+/* DASHBOARD WIDGETS */
+.dashboard .module {
+    min-height: 140px;
+}

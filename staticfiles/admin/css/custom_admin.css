@@ -1,0 +1,130 @@
+/* ----------------------------
+   FONT
+----------------------------- */
+@font-face {
+    font-family: 'Vazir';
+    src: url('/static/fonts/Vazir.woff2') format('woff2'),
+         url('/static/fonts/Vazir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Vazir', sans-serif !important;
+}
+
+/* ----------------------------
+   RTL BASE
+----------------------------- */
+body, html {
+    direction: rtl !important;
+    text-align: right !important;
+    background: #eef2f6 !important;
+}
+
+th, td {
+    text-align: right !important;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* Forms */
+input, select, textarea {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* ----------------------------
+   HEADER STYLE
+----------------------------- */
+
+#header, .module h2 {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+#branding h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff !important;
+    padding-right: 15px;
+}
+
+/* ----------------------------
+   MENU (Side Navigation)
+----------------------------- */
+
+/* اگر از JET استفاده می‌کنی این بخش مهم است */
+.sidebar, .jet-side-nav, .jet-menu-wrapper {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.jet-menu li a {
+    padding-right: 20px !important;
+    padding-left: 0 !important;
+}
+
+/* ----------------------------
+   TABLES
+----------------------------- */
+.module table {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.module table th, 
+.module table td {
+    padding: 10px !important;
+}
+
+/* ----------------------------
+   BEAUTIFYING ADMIN PANEL
+----------------------------- */
+
+/* Cards */
+.module {
+    border-radius: 10px !important;
+    background: #fff !important;
+    border: 1px solid #dce3ea !important;
+    padding: 10px 15px !important;
+}
+
+/* Section Titles */
+.module h2, .module caption {
+    background: #3b7ddd !important;
+    color: #fff !important;
+    padding: 10px 15px !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+
+/* Buttons */
+.button, input[type="submit"], input[type="button"] {
+    background: #3b7ddd !important;
+    border: none !important;
+    color: #fff !important;
+    padding: 7px 15px !important;
+    border-radius: 6px !important;
+}
+
+.button:hover, 
+input[type="submit"]:hover {
+    background: #2964b0 !important;
+}
+
+/* Table Hover */
+.module table tbody tr:hover {
+    background: #f0f4ff !important;
+}
+
+/* Last Activities Panel */
+#recent-actions-module {
+    background: white !important;
+    border-radius: 10px !important;
+    padding: 15px;
+}
